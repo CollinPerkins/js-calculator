@@ -1,0 +1,58 @@
+input[type=text] {
+  text-align: right;
+  border-radius: 10px;
+  width: 270px;
+  top: 15px;
+  left: 0px;
+  font-size: 30px;
+  position: relative;
+  margin: 0 auto;
+  border: none;
+  color: transparent;
+  text-shadow: 0 0 0 gray;
+}
+
+input[type=text]:focus {
+  outline: none;
+}
+
+#calculatorBody {
+  height: 375px;
+  width: 300px;
+  background-color: black;
+  margin: 0 auto;
+  margin-top: 50px;
+  border-radius: 10px;
+}
+
+#buttonsRight {
+  float: right:
+  width: 22%;
+}
+
+#buttonsRight button {
+  height: 140px;
+  width: 20%;
+  margin-left: -5px;
+}
+
+#buttonsLeft {
+  float: left;
+  width: 78%;
+}
+
+#buttonsLeft button {
+  width: 30%;
+}
+
+#buttons {
+  margin-top: 30px;
+  position: relative;
+  margin-left: 15px;
+}
+
+button {
+  font-size: 20px;
+  height: 50px;
+  margin-bottom: 10px;
+}
